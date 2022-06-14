@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em Contato</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form_enviarMsg" method="POST" onsubmit="return false;">
+            <h3>ENTRE EM CONTATO</h3>
+            <input type="text" id="name" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu E-mail" required>
+            <input type="text" id="phone" placeholder="Seu Telefone" required>
+            <textarea id="message" cols="30" rows="4" placeholder="Escreva sua mensagem" required></textarea>
+            <button id="btnEnviar" type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="contato.js"></script>
+</body>
+</html>
+
+<!--onsubmit="sendEmail(); reset(); return false;"-->
