@@ -25,16 +25,3 @@ function sendEmail(envio){
 }
 
 form.addEventListener('submit',sendEmail);
-
-//USERNAME: githprojtiaw@gmail.com
-//PASSWORD: 641319356A7C232B3B9A0C8AE4CAD9C10E06
-//SERVER: smtp.elasticemail.com
-//PORT: 2525
-//SECURE TOKEN: aec9c5bd-e2f9-47d4-abcc-2b8e7ecd2faf
-
-/*
-    SecureToken : "aec9c5bd-e2f9-47d4-abcc-2b8e7ecd2faf",
-    Host : "smtp.gmail.com",
-    Username : "githprojtiaw@gmail.com", //gmail id
-    Password : "QualquerCoisa123",
-*/
